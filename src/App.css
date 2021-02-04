@@ -10,17 +10,18 @@
 }
 
 .app-background {
-  background-color: black;
+  background-color: darkgray;
   display: flex;
   flex-direction: column;
-  width: 100vw;
-  height: 100vh;
+  width: 100%;
+  height: 100vmax;
 }
 
 .intro-header {
   align-items: center;
   justify-content: center;
   font-size: calc(100px + 2vmin);
+  color: #790034
 }
 
 .intro-sentence {
@@ -29,17 +30,50 @@
   font-size: calc(50px + 2vmin);
 }
 
-.gradient-text {
-  background: linear-gradient(to right, #ac0000 0%, #1b0192 100%);
+.no-bottom {
+  margin-bottom: -100px;
+}
+
+.red-text {
+  color: #ac0000;
+}
+
+.blue-text {
+  color:#480165;
+}
+
+.lr-gradient-text {
+  background: linear-gradient(to right, #ac0000 -30%, #1b0192 130%);
+  background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.reverse-gradient-text {
+  background: linear-gradient(to right,#1b0192 -30%,  #860000 130%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.tb-gradient-text {
+  background: linear-gradient( #ac0000 -30%, #1b0192 130%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.quick-info {
+  font-size: calc(20px + 2vmin);
+  color:#480165;
+}
+
+.learn-more-button {
+  font-size: calc(20px + 2vmin);
+  color: white;
+  background: linear-gradient(to left,#760036 0%,  #480165 100%);
+  border-radius: 12px;
+  border: none;
+  margin-top: 5%;
+  margin-bottom: 0px;
 }
