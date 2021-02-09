@@ -3,12 +3,12 @@ import React from 'react';
 import Sidebar from './components/sidebar';
 import ProfileLinks from './components/profileLinks';
 
-class App extends React.Component {
+class App extends React.Component { 
 
   constructor() {
     super()
     this.state = {
-      sidebar_rendered: false
+      sidebar_rendered: false,
     }
   }
 
@@ -40,7 +40,7 @@ class App extends React.Component {
           <button className="learn-more-button" onClick={this.toggleSidebar}>click to learn more</button>
           <p> or, if you really don't like it here...</p>
           <p>visit one of my profiles: </p>
-          <ProfileLinks />
+          <ProfileLinks/>
           {/* inset a react component containing links! */}
         </div>
       </div>

@@ -10,7 +10,7 @@
 }
 
 .app-background {
-  background-color: darkgray;
+  background-color: white;
   display: flex;
   flex-direction: column;
   width: 100%;
@@ -71,9 +71,21 @@
 .learn-more-button {
   font-size: calc(20px + 2vmin);
   color: white;
-  background: linear-gradient(to left,#760036 0%,  #480165 100%);
+  /* background: linear-gradient(to left,#760036 0%,  #480165 100%); */
   border-radius: 12px;
   border: none;
   margin-top: 5%;
   margin-bottom: 0px;
+  animation: 2s infinite alternate ease-out breathing-color--dark;
 }
+
+@keyframes breathing-color--dark {
+  from
+  {
+      background-color: #760036;
+  }
+  to
+  {
+      background-color:#490165c2;
+  }
+} 

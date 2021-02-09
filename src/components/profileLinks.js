@@ -4,18 +4,19 @@ import React from 'react';
 
 class ProfileLinks extends React.Component {
 
-    constructor() {
-        super()
-    }
-
     render() {
         return (
             <div className='profileLinks'>
-                <img></img>
-                <p>Some links should show up here soon!</p>
+                <a href="https://www.github.com/trevarmand">
+                    <img src="./github.png" ></img>
+                </a>
+                <a href="https://linkedin/in/trevor-armand">
+                    <img src="./linkedin.png"></img>
+                </a>
             </div>
         )
     }
 }
+
 
 export default ProfileLinks;

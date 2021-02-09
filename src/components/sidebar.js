@@ -6,9 +6,6 @@ class Sidebar extends React.Component {
 
     constructor(props) {
         super(props)
-        this.state = {
-            rendered: this.props.rendered
-        }
     }
 
     render() {
