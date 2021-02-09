@@ -1,0 +1,35 @@
+/* #content {
+    margin-left: 12px;
+}
+*/
+
+.vertical-timeline-element-icon  {
+    position: relative;
+    display: block;
+    left: -122px;
+    background-color: pink;
+}
+
+
+
+
+.vertical-timeline-element-content {
+    background-color: red;
+    position: relative;
+    background: red;
+    border-radius: 0.25em;
+    padding: 1em;
+    -webkit-box-shadow: 8px 8px 16px 8px rgba(0,0,0,0.2);
+    -moz-box-shadow: 8px 8px 16px 8px rgba(0,0,0,0.2);
+    box-shadow: 8px 8px 16px 8px rgba(0,0,0,0.2);
+  } 
+
+.vertical-timeline-element-icon img {
+    position: relative;
+    display: block;
+    width: 64px;
+    height: 64px;
+    left: -20px;
+    top: 1px;
+    border-radius: 10px;
+}

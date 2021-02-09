@@ -4,14 +4,10 @@ import React from 'react';
 
 class Sidebar extends React.Component {
 
-    constructor(props) {
-        super(props)
-    }
-
     render() {
         return (
             <div className="sidebar" id="slide">
-                <p className="header-color navigation-header">NAVIGATION</p>
+                <p className="header-color navigation-header"></p>
                 <ul className="linkList item-color">
                     <li><a href='google.com'>Work Experience</a></li>
                     <li><a>Personal Projects</a></li>

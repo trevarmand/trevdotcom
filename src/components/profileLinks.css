@@ -1,0 +1,11 @@
+.link-image {
+    width: 4vmin;
+    height: 4vmin;
+    padding: 8px;
+}
+
+.profile-links {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}

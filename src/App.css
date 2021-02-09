@@ -9,19 +9,18 @@
   }
 }
 
-.app-background {
-  background-color: white;
+.primary-background {
+  background-color :#092340;
   display: flex;
   flex-direction: column;
   width: 100%;
-  height: 100vmax;
+  height: 110vh;
 }
 
 .intro-header {
   align-items: center;
   justify-content: center;
   font-size: calc(100px + 2vmin);
-  color: #790034
 }
 
 .intro-sentence {
@@ -38,34 +37,16 @@
   color: #ac0000;
 }
 
-.blue-text {
-  color:#480165;
-}
-
-.lr-gradient-text {
-  background: linear-gradient(to right, #ac0000 -30%, #1b0192 130%);
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-
-.reverse-gradient-text {
-  background: linear-gradient(to right,#1b0192 -30%,  #860000 130%);
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-
-.tb-gradient-text {
-  background: linear-gradient( #ac0000 -30%, #1b0192 130%);
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+.yellow-text {
+  color: #f6ca30;
 }
 
 .quick-info {
   font-size: calc(20px + 2vmin);
-  color:#480165;
+}
+
+.small-bottom {
+  margin-bottom: -2%;
 }
 
 .learn-more-button {
@@ -74,18 +55,26 @@
   /* background: linear-gradient(to left,#760036 0%,  #480165 100%); */
   border-radius: 12px;
   border: none;
-  margin-top: 5%;
-  margin-bottom: 0px;
+  margin-top: 3%;
+  margin-bottom: 3%;
   animation: 2s infinite alternate ease-out breathing-color--dark;
 }
 
 @keyframes breathing-color--dark {
   from
   {
-      background-color: #760036;
+      background-color: #007db7;
   }
   to
   {
-      background-color:#490165c2;
+      background-color:#007db7;
   }
 } 
+
+.second-background {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100vmax;
+}

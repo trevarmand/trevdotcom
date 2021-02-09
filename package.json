@@ -11,6 +11,7 @@
     "popper": "^1.0.1",
     "react": "^17.0.1",
     "react-bootstrap": "^1.4.3",
+    "react-vertical-timeline-component": "^2.6.2",
     "react-dom": "^17.0.1",
     "react-scripts": "4.0.1",
     "web-vitals": "^0.2.4"

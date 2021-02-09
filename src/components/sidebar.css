@@ -1,7 +1,7 @@
 .sidebar {
-    background-color: black;
+    background-color: #f6ca30;
     width: 15vw;
-    height: 100vh;
+    height: 110vh;
     position: relative;
 }
 
@@ -18,6 +18,16 @@
 
 @keyframes slide {
     100% { left: 0; }
+}
+
+.slideRight {
+    visibility: visible;
+    animation-name: slideRight;
+    -webkit-animation-name: slideRight;
+    animation-duration: 1.5s;
+    -webkit-animation-duration: 1.5s;
+    animation-timing-function: ease-in-out;
+    -webkit-animation-timing-function: ease-in-out; 
 }
 
 .linkList{
@@ -37,5 +47,5 @@
 }
   
 .item-color {
-    color:#620288;
+    color:#092340;
 }
