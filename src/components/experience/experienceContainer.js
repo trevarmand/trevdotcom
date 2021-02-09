@@ -2,8 +2,8 @@ import React from 'react';
 import berxi from '../../images/logos/berxi.png'
 import wayfair from '../../images/logos/wayfair.png'
 import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeline-component';
-import './experienceContainer.css'
 import 'react-vertical-timeline-component/style.min.css';
+import './experienceContainer.css'
 /*
     A section which contains a set of experience items.
 */
