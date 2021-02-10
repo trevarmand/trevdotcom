@@ -1,6 +1,6 @@
 .link-image {
-    width: 4vmin;
-    height: 4vmin;
+    width: 8vmin;
+    height: 8vmin;
     padding: 8px;
 }
 
@@ -8,4 +8,9 @@
     justify-content: center;
     align-items: center;
     text-align: center;
+}
+
+.img-spacing {
+    margin-right: 5vmin;
+    margin-top: 5vmin;
 }

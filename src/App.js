@@ -42,7 +42,7 @@ class App extends React.Component {
             <button className="learn-more-button" onClick={this.toggleSidebar}>click to learn more</button>
             <p> or, if you really don't like it here...<br />
             visit one of my profiles: </p>
-            <ProfileLinks />
+            <ProfileLinks className="profile-links"/>
           </div>
         </div>
         <div className="second-background">

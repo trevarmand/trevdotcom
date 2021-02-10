@@ -30,9 +30,9 @@
     -webkit-animation-timing-function: ease-in-out; 
 }
 
-.linkList{
+.link-list{
     list-style-type: none;
-    font-size: xx-large;
+    font-size: calc(1.5vmax);
     line-height: 400%;
 }
 

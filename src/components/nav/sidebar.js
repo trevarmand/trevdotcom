@@ -8,8 +8,8 @@ class Sidebar extends React.Component {
         return (
             <div className="sidebar" id="slide">
                 <p className="header-color navigation-header"></p>
-                <ul className="linkList item-color">
-                    <li><a href='localhost:3000#experience-container'>Work Experience</a></li>
+                <ul className="link-list item-color">
+                    <li><a href='%PUBLIC_URL%#experience-container'>Work Experience</a></li>
                     <li><a>Personal Projects</a></li>
                     <li><a>References</a></li>
                     <li><a>Writing</a></li>
