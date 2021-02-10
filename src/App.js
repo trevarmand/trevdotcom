@@ -1,7 +1,8 @@
 import './App.css';
+import './common.css';
 import React from 'react';
-import Sidebar from './components/sidebar';
-import ProfileLinks from './components/profileLinks';
+import Sidebar from './components/nav/sidebar';
+import ProfileLinks from './components/nav/profileLinks';
 import ExperienceContainer from './components/experience/experienceContainer';
 
 class App extends React.Component {

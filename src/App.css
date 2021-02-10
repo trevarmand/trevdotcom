@@ -14,16 +14,18 @@
   display: flex;
   flex-direction: column;
   width: 100%;
-  height: 110vh;
+  height: 110vmin;
 }
 
 .intro-header {
   align-items: center;
   justify-content: center;
   font-size: calc(100px + 2vmin);
+  position: relative;
 }
 
 .intro-sentence {
+  position: relative;
   align-items: center;
   justify-content: center;
   font-size: calc(50px + 2vmin);
@@ -33,15 +35,8 @@
   margin-bottom: -100px;
 }
 
-.red-text {
-  color: #ac0000;
-}
-
-.yellow-text {
-  color: #f6ca30;
-}
-
 .quick-info {
+  position: relative;
   font-size: calc(20px + 2vmin);
 }
 
@@ -52,7 +47,6 @@
 .learn-more-button {
   font-size: calc(20px + 2vmin);
   color: white;
-  /* background: linear-gradient(to left,#760036 0%,  #480165 100%); */
   border-radius: 12px;
   border: none;
   margin-top: 3%;
@@ -67,7 +61,7 @@
   }
   to
   {
-      background-color:#007db7;
+      background-color:#007db7a6;
   }
 } 
 

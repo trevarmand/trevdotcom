@@ -1,0 +1,12 @@
+.section-header {
+    font-size: calc(50px + 2vmin);
+    color: #f6ca30;
+    text-decoration-line: underline;
+    text-underline-offset: 30%;
+    text-decoration-style: double;
+    text-decoration-color: #00567e;
+}
+
+.yellow-text {
+    color: #f6ca30;
+}

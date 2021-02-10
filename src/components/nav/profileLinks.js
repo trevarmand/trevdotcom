@@ -1,7 +1,7 @@
 import './profileLinks.css'
 import React from 'react';
-import github from '../images/logos/git.svg'
-import linkedin from '../images/logos/git.svg'
+import github from '../../images/logos/git.svg'
+import linkedin from '../../images/logos/git.svg'
 
 class ProfileLinks extends React.Component {
 
