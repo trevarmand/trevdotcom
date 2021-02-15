@@ -1,8 +1,8 @@
 .sidebar {
     background-color: #f6ca30;
-    width: 15vw;
-    height: 110vh;
-    position: relative;
+    width: 20vw;
+    height: 110%;
+    position: absolute;
 }
 
 #slide {

@@ -18,11 +18,13 @@
 }
 
 .intro-container {
-  height: 50vmin;
+  height: 110vh;
+  position: relative;
 }
 
+
 .intro-header {
-  top: -10%;
+  top: -5%;
   align-items: center;
   justify-content: center;
   font-size: calc(80px + 2vmin);
@@ -33,6 +35,7 @@
   position: relative;
   align-items: center;
   justify-content: center;
+  margin-top: 5%;
   font-size: calc(40px + 1.5vmin);
 }
 
@@ -54,8 +57,8 @@
   color: white;
   border-radius: 12px;
   border: none;
-  margin-top: 2%;
-  margin-bottom: 2%;
+  margin-top: 2.5%;
+  margin-bottom: 2.5%;
   animation: 1.5s infinite alternate ease-out breathing-color--dark;
 }
 

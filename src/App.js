@@ -25,11 +25,9 @@ class App extends React.Component {
             }
           </div>
           <div className="intro-containter">
-            <div className="intro yellow-text">
+            <div className="yellow-text">
               <header className="intro-header">
-                <p>
                   Hi!
-              </p>
               </header>
               <div className="intro-sentence yellow-text">
                 <p>
