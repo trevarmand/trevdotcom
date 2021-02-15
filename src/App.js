@@ -24,25 +24,27 @@ class App extends React.Component {
               this.state.sidebar_rendered && <Sidebar />
             }
           </div>
-          <div className="intro yellow-text">
-            <header className="intro-header">
-              <p>
-                Hi!
+          <div className="intro-containter">
+            <div className="intro yellow-text">
+              <header className="intro-header">
+                <p>
+                  Hi!
               </p>
-            </header>
-            <div className="intro-sentence yellow-text">
-              <p>
-                My name is Trevor Armand.
-                <br /> 
+              </header>
+              <div className="intro-sentence yellow-text">
+                <p>
+                  My name is Trevor Armand.
+                <br />
                 Welcome to my website!
               </p>
+              </div>
             </div>
-          </div>
-          <div className="quick-info yellow-text">
-            <button className="learn-more-button" onClick={this.toggleSidebar}>click to learn more</button>
-            <p> or, if you really don't like it here...<br />
+            <div className="quick-info yellow-text">
+              <button className="learn-more-button" onClick={this.toggleSidebar}>click to learn more</button>
+              <p> or, if you really don't like it here...<br />
             visit one of my profiles: </p>
-            <ProfileLinks className="profile-links"/>
+              <ProfileLinks className="profile-links" />
+            </div>
           </div>
         </div>
         <div className="second-background">
