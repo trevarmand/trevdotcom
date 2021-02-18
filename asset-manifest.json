@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/trevdotcom/static/css/main.8c8b27cf.chunk.css",
+    "main.js": "/trevdotcom/static/js/main.01ca2a08.chunk.js",
+    "main.js.map": "/trevdotcom/static/js/main.01ca2a08.chunk.js.map",
+    "runtime-main.js": "/trevdotcom/static/js/runtime-main.2ee19ab5.js",
+    "runtime-main.js.map": "/trevdotcom/static/js/runtime-main.2ee19ab5.js.map",
+    "static/js/2.8d4790c6.chunk.js": "/trevdotcom/static/js/2.8d4790c6.chunk.js",
+    "static/js/2.8d4790c6.chunk.js.map": "/trevdotcom/static/js/2.8d4790c6.chunk.js.map",
+    "static/js/3.ce9acae0.chunk.js": "/trevdotcom/static/js/3.ce9acae0.chunk.js",
+    "static/js/3.ce9acae0.chunk.js.map": "/trevdotcom/static/js/3.ce9acae0.chunk.js.map",
+    "index.html": "/trevdotcom/index.html",
+    "static/css/main.8c8b27cf.chunk.css.map": "/trevdotcom/static/css/main.8c8b27cf.chunk.css.map",
+    "static/js/2.8d4790c6.chunk.js.LICENSE.txt": "/trevdotcom/static/js/2.8d4790c6.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/trevdotcom/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2ee19ab5.js",
+    "static/js/2.8d4790c6.chunk.js",
+    "static/css/main.8c8b27cf.chunk.css",
+    "static/js/main.01ca2a08.chunk.js"
+  ]
+}
