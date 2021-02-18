@@ -53,7 +53,7 @@ class ExperienceContainer extends React.Component {
                         className="vertical-timeline-element"
                         contentStyle={contentStyle}
                         contentArrowStyle={{ borderRight: '12px solid  #035d8d' }}
-                        date="July 2019 - December 2019"
+                        date="September 2018 - Present"
                         iconStyle={{ background: 'rgb(255, 255, 255)', color: '#fff' }}
                         icon={<img src={hhp} />}>
                         <h3 className="vertical-timeline-element-title">Video Production Assistant @ Howlin' Huskies Productions</h3>
@@ -68,7 +68,7 @@ class ExperienceContainer extends React.Component {
                         className="vertical-timeline-element"
                         contentStyle={contentStyle}
                         contentArrowStyle={{ borderRight: '12px solid  #035d8d' }}
-                        date="July 2019 - December 2019"
+                        date="June 2016 - Present"
                         iconStyle={{ background: 'rgb(255, 255, 255)', color: '#fff' }}
                         icon={<img src={fbc} />}>
                         <h3 className="vertical-timeline-element-title">Dockmaster @ Freedom Boat Club</h3>
