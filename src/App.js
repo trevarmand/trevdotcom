@@ -4,6 +4,7 @@ import React from 'react';
 import Sidebar from './components/nav/sidebar';
 import ProfileLinks from './components/nav/profileLinks';
 import ExperienceContainer from './components/experience/experienceContainer';
+import UnderConstructionPopup from './components/underConstruction';
 
 class App extends React.Component {
 
@@ -11,6 +12,7 @@ class App extends React.Component {
     super()
     this.state = {
       sidebar_rendered: false,
+      under_construction: true,
     }
   }
 
@@ -19,15 +21,22 @@ class App extends React.Component {
     return (
       <div className="App">
         <div className="primary-background">
+          { this.state.under_construction ?
+            <UnderConstructionPopup 
+              closePopup={this.toggleUnderConstruction.bind(this)}
+            />
+            : null
+          }
+          
+          <div className="intro-containter">
           <div className="sidebar-container">
             {
               this.state.sidebar_rendered && <Sidebar />
             }
           </div>
-          <div className="intro-containter">
             <div className="yellow-text">
               <header className="intro-header">
-                  Hi!
+                Hi!
               </header>
               <div className="intro-sentence yellow-text">
                 <p>
@@ -56,6 +65,12 @@ class App extends React.Component {
     this.setState({
       sidebar_rendered: !this.state.sidebar_rendered
     })
+  }
+
+  toggleUnderConstruction() {
+    this.setState({
+      under_construction: !this.state.under_construction
+    });
   }
 }
 
