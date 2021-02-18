@@ -1,23 +1,30 @@
 {
   "files": {
-    "main.css": "/trevdotcom/static/css/main.8c8b27cf.chunk.css",
-    "main.js": "/trevdotcom/static/js/main.01ca2a08.chunk.js",
-    "main.js.map": "/trevdotcom/static/js/main.01ca2a08.chunk.js.map",
-    "runtime-main.js": "/trevdotcom/static/js/runtime-main.2ee19ab5.js",
-    "runtime-main.js.map": "/trevdotcom/static/js/runtime-main.2ee19ab5.js.map",
-    "static/js/2.8d4790c6.chunk.js": "/trevdotcom/static/js/2.8d4790c6.chunk.js",
-    "static/js/2.8d4790c6.chunk.js.map": "/trevdotcom/static/js/2.8d4790c6.chunk.js.map",
-    "static/js/3.ce9acae0.chunk.js": "/trevdotcom/static/js/3.ce9acae0.chunk.js",
-    "static/js/3.ce9acae0.chunk.js.map": "/trevdotcom/static/js/3.ce9acae0.chunk.js.map",
+    "main.css": "/trevdotcom/static/css/main.6707c20e.chunk.css",
+    "main.js": "/trevdotcom/static/js/main.dc5a0b5e.chunk.js",
+    "main.js.map": "/trevdotcom/static/js/main.dc5a0b5e.chunk.js.map",
+    "runtime-main.js": "/trevdotcom/static/js/runtime-main.a0207100.js",
+    "runtime-main.js.map": "/trevdotcom/static/js/runtime-main.a0207100.js.map",
+    "static/css/2.e8d07da5.chunk.css": "/trevdotcom/static/css/2.e8d07da5.chunk.css",
+    "static/js/2.88c8cba8.chunk.js": "/trevdotcom/static/js/2.88c8cba8.chunk.js",
+    "static/js/2.88c8cba8.chunk.js.map": "/trevdotcom/static/js/2.88c8cba8.chunk.js.map",
     "index.html": "/trevdotcom/index.html",
-    "static/css/main.8c8b27cf.chunk.css.map": "/trevdotcom/static/css/main.8c8b27cf.chunk.css.map",
-    "static/js/2.8d4790c6.chunk.js.LICENSE.txt": "/trevdotcom/static/js/2.8d4790c6.chunk.js.LICENSE.txt",
-    "static/media/logo.6ce24c58.svg": "/trevdotcom/static/media/logo.6ce24c58.svg"
+    "static/css/2.e8d07da5.chunk.css.map": "/trevdotcom/static/css/2.e8d07da5.chunk.css.map",
+    "static/css/main.6707c20e.chunk.css.map": "/trevdotcom/static/css/main.6707c20e.chunk.css.map",
+    "static/js/2.88c8cba8.chunk.js.LICENSE.txt": "/trevdotcom/static/js/2.88c8cba8.chunk.js.LICENSE.txt",
+    "static/media/berxi.8ad86327.png": "/trevdotcom/static/media/berxi.8ad86327.png",
+    "static/media/fbc.908f2ee3.png": "/trevdotcom/static/media/fbc.908f2ee3.png",
+    "static/media/github.1e7198f4.png": "/trevdotcom/static/media/github.1e7198f4.png",
+    "static/media/linkedin.ddf9b683.png": "/trevdotcom/static/media/linkedin.ddf9b683.png",
+    "static/media/neu.c2eb91a6.png": "/trevdotcom/static/media/neu.c2eb91a6.png",
+    "static/media/northeastern.0e139a93.png": "/trevdotcom/static/media/northeastern.0e139a93.png",
+    "static/media/wayfair2.8452fd0a.png": "/trevdotcom/static/media/wayfair2.8452fd0a.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.2ee19ab5.js",
-    "static/js/2.8d4790c6.chunk.js",
-    "static/css/main.8c8b27cf.chunk.css",
-    "static/js/main.01ca2a08.chunk.js"
+    "static/js/runtime-main.a0207100.js",
+    "static/css/2.e8d07da5.chunk.css",
+    "static/js/2.88c8cba8.chunk.js",
+    "static/css/main.6707c20e.chunk.css",
+    "static/js/main.dc5a0b5e.chunk.js"
   ]
 }
