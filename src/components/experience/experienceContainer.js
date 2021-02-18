@@ -46,7 +46,7 @@ class ExperienceContainer extends React.Component {
                         <p>
                             Built a REST API for Google Adwords, as well as an API gateway for ad vendors including Facebook, AppNexus, and Pinterest<br />
                             Identified and resolved silent message droppage issues in a massive scale data streaming pipeline <br />
-                            Implemented filters resulting in an 80% reduction in redundant messages during Cyber 5
+                            Implemented filters resulting in an 80% reduction in redundant messages during Cyber 5 <br />
                         </p>
                     </VerticalTimelineElement>
                     <VerticalTimelineElement
@@ -74,9 +74,9 @@ class ExperienceContainer extends React.Component {
                         <h3 className="vertical-timeline-element-title">Dockmaster @ Freedom Boat Club</h3>
                         <h4 className="vertical-timeline-element-subtitle">Boston, MA</h4>
                         <p>
-                            Operated camera equipment for athletics broadcasts on NESN<br />
-                            Built creative graphics assets during games to present meaningful information to viewers<br />
-                            Learned to perform in a high-stakes, fast-moving, team-oriented environment
+                            Managed a fleet of 20 vessels and 10 employees<br />
+                            Performed overseeing duties including inventory management, scheduling, conflict resolution, and emergency response<br />
+                            Provided an exceptional experience to private club members
                         </p>
                     </VerticalTimelineElement>
                 </VerticalTimeline>
