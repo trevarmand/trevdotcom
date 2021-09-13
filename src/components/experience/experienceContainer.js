@@ -2,8 +2,8 @@ import React from 'react';
 import berxi from '../../images/logos/berxi.png'
 import wayfair from '../../images/logos/wayfair2.png'
 import hhp from '../../images/logos/northeastern.png'
-import neu from '../../images/logos/neu.png'
 import fbc from '../../images/logos/fbc.png'
+import appfolio from '../../images/logos/appfolio.png'
 import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
 import './experienceContainer.css'
@@ -19,6 +19,20 @@ class ExperienceContainer extends React.Component {
             <div className="experience-container" id="experience-container">
                 <h className="section-header">Work Experience</h>
                 <VerticalTimeline layout="1-column-left">
+                    <VerticalTimelineElement
+                        className="vertical-timeline-element"
+                        contentStyle={contentStyle}
+                        contentArrowStyle={{ borderRight: '12px solid  #035d8d' }}
+                        date="July 2021 - Present"
+                        iconStyle={{ background: 'rgb(255, 255, 255)', color: '#fff' }}
+                        icon={<img src={appfolio} />}>
+                        <h3 className="vertical-timeline-element-title">Full-Stack Software Engineering Co-Op @ Appfolio</h3>
+                        <h4 className="vertical-timeline-element-subtitle">San Diego, CA</h4>
+                        <p>
+                            Contributing to Appfolio Property Management SAAS<br />
+                            Gaining hands-on experience with Ruby on Rails and React<br />
+                        </p>
+                    </VerticalTimelineElement>
                     <VerticalTimelineElement
                         className="vertical-timeline-element"
                         contentStyle={contentStyle}
