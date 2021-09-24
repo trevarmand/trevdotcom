@@ -1,30 +1,30 @@
 {
   "files": {
     "main.css": "/trevdotcom/static/css/main.4f951bbe.chunk.css",
-    "main.js": "/trevdotcom/static/js/main.4ee4c743.chunk.js",
-    "main.js.map": "/trevdotcom/static/js/main.4ee4c743.chunk.js.map",
+    "main.js": "/trevdotcom/static/js/main.c4f7348f.chunk.js",
+    "main.js.map": "/trevdotcom/static/js/main.c4f7348f.chunk.js.map",
     "runtime-main.js": "/trevdotcom/static/js/runtime-main.a0207100.js",
     "runtime-main.js.map": "/trevdotcom/static/js/runtime-main.a0207100.js.map",
     "static/css/2.e8d07da5.chunk.css": "/trevdotcom/static/css/2.e8d07da5.chunk.css",
-    "static/js/2.88c8cba8.chunk.js": "/trevdotcom/static/js/2.88c8cba8.chunk.js",
-    "static/js/2.88c8cba8.chunk.js.map": "/trevdotcom/static/js/2.88c8cba8.chunk.js.map",
+    "static/js/2.1ed984cd.chunk.js": "/trevdotcom/static/js/2.1ed984cd.chunk.js",
+    "static/js/2.1ed984cd.chunk.js.map": "/trevdotcom/static/js/2.1ed984cd.chunk.js.map",
     "index.html": "/trevdotcom/index.html",
     "static/css/2.e8d07da5.chunk.css.map": "/trevdotcom/static/css/2.e8d07da5.chunk.css.map",
     "static/css/main.4f951bbe.chunk.css.map": "/trevdotcom/static/css/main.4f951bbe.chunk.css.map",
-    "static/js/2.88c8cba8.chunk.js.LICENSE.txt": "/trevdotcom/static/js/2.88c8cba8.chunk.js.LICENSE.txt",
+    "static/js/2.1ed984cd.chunk.js.LICENSE.txt": "/trevdotcom/static/js/2.1ed984cd.chunk.js.LICENSE.txt",
+    "static/media/appfolio.2c9e171a.png": "/trevdotcom/static/media/appfolio.2c9e171a.png",
     "static/media/berxi.8ad86327.png": "/trevdotcom/static/media/berxi.8ad86327.png",
     "static/media/fbc.908f2ee3.png": "/trevdotcom/static/media/fbc.908f2ee3.png",
     "static/media/github.1e7198f4.png": "/trevdotcom/static/media/github.1e7198f4.png",
     "static/media/linkedin.ddf9b683.png": "/trevdotcom/static/media/linkedin.ddf9b683.png",
-    "static/media/neu.c2eb91a6.png": "/trevdotcom/static/media/neu.c2eb91a6.png",
     "static/media/northeastern.0e139a93.png": "/trevdotcom/static/media/northeastern.0e139a93.png",
     "static/media/wayfair2.8452fd0a.png": "/trevdotcom/static/media/wayfair2.8452fd0a.png"
   },
   "entrypoints": [
     "static/js/runtime-main.a0207100.js",
     "static/css/2.e8d07da5.chunk.css",
-    "static/js/2.88c8cba8.chunk.js",
+    "static/js/2.1ed984cd.chunk.js",
     "static/css/main.4f951bbe.chunk.css",
-    "static/js/main.4ee4c743.chunk.js"
+    "static/js/main.c4f7348f.chunk.js"
   ]
 }
