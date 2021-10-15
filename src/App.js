@@ -13,7 +13,7 @@ class App extends React.Component {
   constructor() {
     super()
     this.state = {
-      under_construction: true,
+      under_construction: false,
     }
   }
 
@@ -56,7 +56,7 @@ class App extends React.Component {
               <Button className="learn-more-button" onClick={() => {this.scrollToExperience()}}>click to learn more</Button>
               <p> or, if you really don't like it here...<br />
             visit one of my profiles: </p>
-              <ProfileLinks className="profile-links" />
+              <ProfileLinks className="mb-2 profile-links" />
             </div>
           </div>
         </div>
