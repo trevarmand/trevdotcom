@@ -1,5 +1,6 @@
 import React from 'react';
 import './underConstruction.css';
+import Button from 'react-bootstrap/Button'
 
 class UnderConstructionPopup extends React.Component {
     render() {
@@ -10,7 +11,7 @@ class UnderConstructionPopup extends React.Component {
                     <p>Thanks for paying me a visit. This site is under construction. <br /> 
                     Please understand that visuals and overall site are not in a finished state. <br />
                     That being said, all information shared here is accurate and up-to-date.</p>
-                    <button onClick={this.props.closePopup}>Got it!</button>
+                    <Button size="lg" onClick={this.props.closePopup}>Got it!</Button>
                 </div>
             </div>
         );

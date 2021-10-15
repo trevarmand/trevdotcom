@@ -1,9 +1,12 @@
+import 'bootstrap/dist/css/bootstrap.css';
 import './App.css';
 import './common.css';
 import React from 'react';
 import ProfileLinks from './components/nav/profileLinks';
 import ExperienceContainer from './components/experience/experienceContainer';
 import UnderConstructionPopup from './components/underConstruction';
+import Button from 'react-bootstrap/Button'
+
 
 class App extends React.Component {
 
@@ -50,7 +53,7 @@ class App extends React.Component {
               </div>
             </div>
             <div className="quick-info yellow-text">
-              <button className="learn-more-button" onClick={() => {this.scrollToExperience()}}>click to learn more</button>
+              <Button className="learn-more-button" onClick={() => {this.scrollToExperience()}}>click to learn more</Button>
               <p> or, if you really don't like it here...<br />
             visit one of my profiles: </p>
               <ProfileLinks className="profile-links" />
