@@ -14,6 +14,16 @@ class App extends React.Component {
     }
   }
 
+  scrollToExperience = () => {
+    document.getElementById("experience-container")?.scrollIntoView();  
+  }
+
+  toggleUnderConstruction() {
+    this.setState({
+      under_construction: !this.state.under_construction
+    });
+  }
+
   render() {
 
     return (
@@ -40,7 +50,7 @@ class App extends React.Component {
               </div>
             </div>
             <div className="quick-info yellow-text">
-              <button className="learn-more-button">scroll to learn more</button>
+              <button className="learn-more-button" onClick={() => {this.scrollToExperience()}}>click to learn more</button>
               <p> or, if you really don't like it here...<br />
             visit one of my profiles: </p>
               <ProfileLinks className="profile-links" />
@@ -52,12 +62,6 @@ class App extends React.Component {
         </div>
       </div>
     );
-  }
-
-  toggleUnderConstruction() {
-    this.setState({
-      under_construction: !this.state.under_construction
-    });
   }
 }
 
