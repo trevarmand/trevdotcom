@@ -39,10 +39,6 @@
   font-size: calc(40px + 1.5vmin);
 }
 
-.no-bottom {
-  margin-bottom: -100px;
-}
-
 .quick-info {
   position: relative;
   font-size: calc(20px + 2vmin);
