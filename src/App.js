@@ -40,7 +40,7 @@ class App extends React.Component {
               </div>
             </div>
             <div className="quick-info yellow-text">
-              <button className="learn-more-button">click to learn more</button>
+              <button className="learn-more-button">scroll to learn more</button>
               <p> or, if you really don't like it here...<br />
             visit one of my profiles: </p>
               <ProfileLinks className="profile-links" />
