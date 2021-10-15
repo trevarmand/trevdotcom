@@ -1,7 +1,6 @@
 import './App.css';
 import './common.css';
 import React from 'react';
-import Sidebar from './components/nav/sidebar';
 import ProfileLinks from './components/nav/profileLinks';
 import ExperienceContainer from './components/experience/experienceContainer';
 import UnderConstructionPopup from './components/underConstruction';
@@ -11,7 +10,6 @@ class App extends React.Component {
   constructor() {
     super()
     this.state = {
-      sidebar_rendered: false,
       under_construction: true,
     }
   }
@@ -29,11 +27,6 @@ class App extends React.Component {
           }
           
           <div className="intro-containter">
-          <div className="sidebar-container">
-            {
-              this.state.sidebar_rendered && <Sidebar />
-            }
-          </div>
             <div className="yellow-text">
               <header className="intro-header">
                 Hi!
@@ -47,7 +40,7 @@ class App extends React.Component {
               </div>
             </div>
             <div className="quick-info yellow-text">
-              <button className="learn-more-button" onClick={this.toggleSidebar}>click to learn more</button>
+              <button className="learn-more-button">click to learn more</button>
               <p> or, if you really don't like it here...<br />
             visit one of my profiles: </p>
               <ProfileLinks className="profile-links" />
@@ -59,12 +52,6 @@ class App extends React.Component {
         </div>
       </div>
     );
-  }
-
-  toggleSidebar = () => {
-    this.setState({
-      sidebar_rendered: !this.state.sidebar_rendered
-    })
   }
 
   toggleUnderConstruction() {
