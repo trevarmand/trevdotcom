@@ -44,19 +44,19 @@ class App extends React.Component {
               <header className="intro-header">
                 Hi!
               </header>
-              <div className="intro-sentence yellow-text">
+              <div className="intro-sentence">
                 <p>
-                  My name is Trevor Armand.
+                My name is Trevor Armand,
                 <br />
-                Welcome to my website!
+                and I'm a software engineer.
               </p>
               </div>
             </div>
             <div className="quick-info yellow-text">
-              <Button className="learn-more-button" onClick={() => {this.scrollToExperience()}}>click to learn more</Button>
+              <Button className="learn-more-button mt-5 mb-5" onClick={() => {this.scrollToExperience()}}>click to learn more</Button>
               <p> or, if you really don't like it here...<br />
             visit one of my profiles: </p>
-              <ProfileLinks className="mb-2 profile-links" />
+              <ProfileLinks/>
             </div>
           </div>
         </div>

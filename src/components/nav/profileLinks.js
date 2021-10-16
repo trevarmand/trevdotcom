@@ -15,7 +15,7 @@ class ProfileLinks extends React.Component {
                 <a href="https://linkedin.com/in/trevor-armand">
                     <img className='link-image ml-3 mr-5' src={linkedin}></img>
                 </a>
-                <a href="https://strava.com/in/trevor-armand">
+                <a href="https://www.strava.com/athletes/5607708">
                     <img className='link-image ml-3' src={strava}></img>
                 </a>
             </div>

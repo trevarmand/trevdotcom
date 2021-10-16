@@ -24,10 +24,9 @@
 
 
 .intro-header {
-  top: -5%;
   align-items: center;
   justify-content: center;
-  font-size: calc(80px + 2vmin);
+  font-size: calc(10px + 7vmin);
   position: relative;
 }
 
@@ -35,13 +34,12 @@
   position: relative;
   align-items: center;
   justify-content: center;
-  margin-top: 5%;
-  font-size: calc(40px + 1.5vmin);
+  font-size: calc(10px + 4vmin);
 }
 
 .quick-info {
   position: relative;
-  font-size: calc(20px + 2vmin);
+  font-size: calc(10px + 4vmin);
 }
 
 .small-bottom {
@@ -69,10 +67,6 @@
   }
 } 
 
-.profile-links {
-  position: relative;
-  justify-content: center;
-}
 
 .second-background {
   background-color: white;
