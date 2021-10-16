@@ -29,7 +29,7 @@ class ExperienceContainer extends React.Component {
                             icon={<img src={appfolio} />}>
                             <h4 className="vertical-timeline-element-title">Full-Stack Software Engineering Co-Op @ Appfolio</h4>
                             <h5 className="vertical-timeline-element-subtitle">San Diego, CA</h5>
-                            <ul>
+                            <ul className="ml-n3">
                                 <li><p>Contributing to Appfolio Property Management SAAS</p></li>
                                 <li><p>Gaining hands-on experience with Ruby on Rails and React</p></li>
                             </ul>
@@ -43,7 +43,7 @@ class ExperienceContainer extends React.Component {
                             icon={<img src={berxi} />}>
                             <h4 className="vertical-timeline-element-title">Software Engineering Co-Op @ Berxi</h4>
                             <h5 className="vertical-timeline-element-subtitle">Boston, MA</h5>
-                            <ul>
+                            <ul className="ml-n3">
                                 <li><p>Designed, built, and deployed a highly generic event driven email platform</p></li>
                                 <li><p> Created new deployment standards leveraging Github Actions in place of CircleCI</p></li>
                                 <li><p> Drove exploratory research into new technologies and libraries for use on an upcoming project</p></li>
@@ -58,7 +58,7 @@ class ExperienceContainer extends React.Component {
                             icon={<img src={wayfair} />}>
                             <h4 className="vertical-timeline-element-title">Software Engineering Co-Op @ Wayfair</h4>
                             <h5 className="vertical-timeline-element-subtitle">Boston, MA</h5>
-                            <ul>
+                            <ul className="ml-n3">
                                 <li><p>Built a REST API for Google Adwords, as well as an API gateway for ad vendors including Facebook, AppNexus, and Pinterest</p></li>
                                 <li><p>Identified and resolved silent message droppage issues in a massive scale data streaming pipeline</p></li>
                                 <li><p>Implemented filters resulting in an 80% reduction in redundant messages during Cyber 5</p></li>
@@ -73,7 +73,7 @@ class ExperienceContainer extends React.Component {
                             icon={<img src={hhp} />}>
                             <h4 className="vertical-timeline-element-title">Video Production Assistant @ Howlin' Huskies Productions</h4>
                             <h5 className="vertical-timeline-element-subtitle">Boston, MA</h5>
-                            <ul>
+                            <ul className="ml-n3">
                                 <li><p>Operated camera equipment for athletics broadcasts on NESN</p></li>
                                 <li><p>Built creative graphics assets during games to present meaningful information to viewers</p></li>
                                 <li><p>Learned to perform in a high-stakes, fast-moving, team-oriented environment</p></li>
@@ -88,7 +88,7 @@ class ExperienceContainer extends React.Component {
                             icon={<img src={fbc} />}>
                             <h4 className="vertical-timeline-element-title">Dockmaster @ Freedom Boat Club</h4>
                             <h5 className="vertical-timeline-element-subtitle">Boston, MA</h5>
-                            <ul>
+                            <ul className="ml-n3">
                                 <li><p>Managed a fleet of 20 vessels and 10 employees</p></li>
                                 <li><p>Performed overseeing duties including inventory management, scheduling, conflict resolution, and emergency response</p></li>
                                 <li><p>Provided an exceptional experience to private club members</p></li>
