@@ -2,13 +2,6 @@
   text-align: center;
 }
 
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
 .primary-background {
   background-color :#092340;
   display: flex;
@@ -21,7 +14,6 @@
   min-height: 110vh;
   position: relative;
 }
-
 
 .intro-header {
   align-items: center;
@@ -53,7 +45,7 @@
   border: none;
   margin-top: 2.5%;
   margin-bottom: 2.5%;
-  animation: 1.5s infinite alternate ease-out breathing-color--dark;
+  animation: 1s infinite alternate ease-out breathing-color--dark;
 }
 
 @keyframes breathing-color--dark {

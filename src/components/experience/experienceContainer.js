@@ -30,7 +30,7 @@ class ExperienceContainer extends React.Component {
                             <h4 className="experience-header-font">Full-Stack Software Engineering Co-Op @ Appfolio</h4>
                             <h5 className="experience-subtitle-font">San Diego, CA</h5>
                             <ul className="ml-n3">
-                                <li className="mb-3">Contributing to Appfolio Property Management standards</li>
+                                <li className="mb-3">Contributing to Appfolio Property Management SAAS</li>
                                 <li>Gaining hands-on experience with Ruby on Rails and React</li>
                             </ul >
                         </VerticalTimelineElement>
