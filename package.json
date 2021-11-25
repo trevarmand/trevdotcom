@@ -1,6 +1,5 @@
 {
   "name": "trevdotcom",
-  "homepage": "https://trevarmand.github.io/trevdotcom",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
