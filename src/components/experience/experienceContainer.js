@@ -20,18 +20,29 @@ class ExperienceContainer extends React.Component {
                 <h className="section-header">Work Experience</h>
                 <div className="mt-5">
                     <VerticalTimeline layout="1-column-left">
-                        <VerticalTimelineElement className="ml-n5"
+                        <VerticalTimelineElement
                             className="vertical-timeline-element"
                             contentStyle={contentStyle}
                             contentArrowStyle={{ borderRight: '12px solid  #035d8d' }}
-                            date="July 2021 - Present"
+                            date="June 2022"
                             iconStyle={{ background: 'rgb(255, 255, 255)', color: '#fff' }}
                             icon={<img src={appfolio} />}>
-                            <h4 className="experience-header-font">Full-Stack Software Engineering Co-Op @ Appfolio</h4>
+                            <h4 className="experience-header-font">Full Stack Software Engineer @ Appfolio</h4>
+                            <h5 className="experience-subtitle-font">San Diego, CA</h5>
+                        </VerticalTimelineElement>
+                        <VerticalTimelineElement
+                            className="vertical-timeline-element"
+                            contentStyle={contentStyle}
+                            contentArrowStyle={{ borderRight: '12px solid  #035d8d' }}
+                            date="July 2021 - December 2021"
+                            iconStyle={{ background: 'rgb(255, 255, 255)', color: '#fff' }}
+                            icon={<img src={appfolio} />}>
+                            <h4 className="experience-header-font">Full Stack Software Engineering Co-Op @ Appfolio</h4>
                             <h5 className="experience-subtitle-font">San Diego, CA</h5>
                             <ul className="ml-n3">
-                                <li className="mb-3">Contributing to Appfolio Property Management SAAS</li>
-                                <li>Gaining hands-on experience with Ruby on Rails and React</li>
+                                <li className="mb-3">Resolved several significant tech debt issues</li>
+                                <li className="mb-3">Implemented broad coverage Selenium integration tests</li>
+                                <li className="mb-3">Obtained experience with numerous forms of front end development</li>
                             </ul >
                         </VerticalTimelineElement>
                         <VerticalTimelineElement
